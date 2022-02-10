@@ -17,5 +17,5 @@ JVM and [Clojure CLI](https://clojure.org/guides/getting_started)
    
 2. Post a tweet:
    ```
-   clj -A:twitter account2 fetch "Hello, World"
+   clj -A:twitter account2 poast "Hello, World"
    ```
