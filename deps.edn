@@ -1,0 +1,12 @@
+{:deps    {org.clojure/clojure             {:mvn/version "1.10.0"}
+           org.clojure/core.async          {:mvn/version "0.6.532"}
+           org.clojure/data.json           {:mvn/version "0.2.7"}
+           clj-http                        {:mvn/version "3.10.0"}
+           org.martinklepsch/clj-http-lite {:mvn/version "0.4.3"}
+           hashp                           {:mvn/version "0.1.1"}
+           clj-oauth                       {:mvn/version "1.5.5"}
+           io.aviso/pretty                 {:mvn/version "0.1.37"}
+           arco                            {:mvn/version "0.2.5"}
+           org.jsoup/jsoup                 {:mvn/version "1.12.1"}
+           nrepl                           {:mvn/version "0.6.0"}}
+ :aliases {:twitter {:main-opts ["-m" "twtr-cli.core"]}}}
